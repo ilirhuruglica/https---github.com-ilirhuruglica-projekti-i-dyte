@@ -1,0 +1,201 @@
+* {
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.Ballina {
+	width: 100vw;
+	height: 100%;
+	background-color: #3b404d;
+	background: url(../img/bota.jpg) no-repeat fixed center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+/* NAVBAR */
+ .nav ul {
+  list-style: none;
+  background-color: #111;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: -4px;
+}
+ 
+ .nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .2s background-color;
+}
+ 
+ .nav a:hover {
+  background-color: #005f5f;
+
+	}
+
+.nav a:hover {
+  background-color: #005f5f;
+}
+
+.nav .active {
+	background-color: #122;
+}
+
+.Header {
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+}
+
+.Kosova {
+	width: 25%;
+	text-align: center;
+	align-items: center;
+	padding: 20px;
+	margin-left: 37vw;
+}
+
+.Kosova path:hover {
+	fill: #005f5f;
+	cursor: pointer;
+}
+
+.Footer h2 {
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+   .nav li {
+   	width: 100%;
+   	display: block;
+    border-bottom: 1px solid #888;
+    height: 50px;
+    line-height: 50px;
+  }
+    .Kosova svg {
+		width: 150%;
+		margin-left: -10vw;
+	}
+	.Header {
+		display: none;
+	}
+	.Footer h2 {
+		font-size: 1em;
+	}
+}
+
+/* Qyteti */
+
+.Header2 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	background: url(../img/Cover.jpg) no-repeat  center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.Header2 .Logo {
+	width: 100%;
+	padding-top: 20px; 
+}
+
+.Header2 .Paragraf {
+	padding: 10px;
+}
+
+.Mesi {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: url(../img/WhiteBackground.jpg) no-repeat  center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+
+.Mesi .Harta .Titulli {
+	text-align: center;
+}
+
+.Mesi .Harta .Titulli button {
+	background: #333;
+	border: none;
+	padding: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.Mesi .Harta .Titulli button:hover {
+	background: #005f5f;
+}
+
+.Mesi .Harta path {
+	cursor: pointer;
+}
+
+.Mesi .Harta path:hover {
+	cursor: pointer;
+	fill: #005f5f;
+}
+
+.Mesi .Pershkrimi {
+	padding: 20px;
+}
+
+.Footer2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #3b404d;
+	background: url(../img/bota.jpg) no-repeat fixed center;
+	background-size: cover;
+	background-blend-mode: multiply;
+	text-align: center;
+	color: #fff;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.Footer2 a {
+	text-decoration: none;
+	color: #eee;
+	line-height: 2em;
+}
+
+.Footer2 a:hover {
+	color: #005f5f;
+}
+
+@media only screen and (max-width: 600px) {
+	.Header2 {
+		height: 100vh;
+	}
+	.Footer2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+	.Mesi {
+	display: grid;
+	grid-template-columns: 1fr;
+	}
+}
